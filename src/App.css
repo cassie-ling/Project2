@@ -1,0 +1,47 @@
+.trashcan{
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  padding-left:3%;
+  justify-content: space-between;
+  padding:50px
+}
+ul{
+  margin:0
+}
+
+
+.task-bar{
+  background-color:rgb(211, 168, 168);
+  width:400px;
+  height:700px;
+  border:solid;
+  text-align: center;
+}
+
+.indiv-task-div{
+  display:flex;
+  flex-direction:row;
+  height: 50px;
+  margin:10px
+
+}
+.indiv-task-input{
+  width:300px;
+  height:50px;
+  background-color:brown;
+  overflow-y:scroll
+}
+.trashcan{
+  margin-top:5px;
+  width: 40px;
+  height:40px;
+}
+.trashcan img{
+  width:inherit
+}
+.plus img{
+  margin-top:5px;
+  width: 40px;
+  height:40px;
+}
