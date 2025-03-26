@@ -1,10 +1,18 @@
-.trashcan{
+@font-face {
+  font-family: 'Munro';
+  src: url(munro/munro.ttf);
+}
+
+.body{
   display: flex;
   flex-direction: row;
-  background-color: aliceblue;
+  background-color: #ecf1e8;
   padding-left:3%;
   justify-content: space-between;
-  padding:50px
+  padding:50px;
+  width:93vw;
+  font-family: "Munro"; 
+
 }
 ul{
   margin:0
@@ -12,10 +20,11 @@ ul{
 
 
 .task-bar{
-  background-color:rgb(211, 168, 168);
+  background-color:#cedcc4;
   width:400px;
   height:700px;
   border:solid;
+  border-color: #b0c7a0;
   text-align: center;
 }
 
@@ -23,14 +32,15 @@ ul{
   display:flex;
   flex-direction:row;
   height: 50px;
-  margin:10px
+  margin:10px;
 
 }
 .indiv-task-input{
   width:300px;
   height:50px;
-  background-color:brown;
-  overflow-y:scroll
+  background-color:#bcd0b0;
+  overflow-y:scroll;
+  margin-right:5px
 }
 .trashcan{
   margin-top:5px;
@@ -44,4 +54,43 @@ ul{
   margin-top:5px;
   width: 40px;
   height:40px;
+}
+
+.right-side-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+progress{
+  width: 800px;
+}
+
+.plant-div{
+  height: 600px;
+  display:flex;
+  justify-content: center;
+}
+.plant-div img{
+  width:500px;
+  height:587.50px;
+}
+/* Add this to your App.css file */
+.cb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #b0c7a0;
+  border-radius: 4px;
+  /* background-color: #bcd0b0; */
+  margin-top: 5px;
+}
+
+.cb:checked {
+  background-color:#b0c7a0
+}
+
+progress {
+  width: 800px;
 }
