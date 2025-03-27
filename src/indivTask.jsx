@@ -27,7 +27,7 @@ function IndivTask(props) {
       <div className="trashcan" onClick={handleDeleteTask}>
         <img src="images/trashcan.svg" alt="delete task"/>
       </div>
-      <input type="checkbox" className="cb" checked={props.done} onChange={handleToggleDone}/>
+      <input type="checkbox" className="cb" checked={props.done} onChange={handleToggleDone} alt="checkbox"/>
     </div>
   );
 }
